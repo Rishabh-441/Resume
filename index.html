@@ -6,40 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+            background-color: antiquewhite;
+        }
         h1, h2 {
             color: blueviolet;
         }
         img {
             position: absolute;
-            top: 10px;
-            right: 40px;
+            top: 35px;
+            right: 65px;
+        }
+        #main {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: white;
+            border: 1px solid rgb(71, 69, 69);
+            border-radius: 5px;
+            padding: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        @media screen and (max-width: 450px){
+            .heading {
+                scale: 0.7;
+            }
+            strong, em {
+                font-size: 10px;
+            }
+            #ed strong, em {
+                font-size: 9px;
+            }
         }
     </style>
 </head>
-<body style="margin: 0 30px 0;">
-    <div>
-        <img src="./images/IMG_20220823_212033.jpg" alt="profile photo" width="50px" style="border: 5px solid blue; border-radius: 5px;">
+<body style="margin: 0 50px 0;">
+    <div id="main">
+        <div>
+        <img src="./images/IMG_20220823_212033.jpg" alt="profile photo" width="10%" style="max-width:50px; border: 5px solid blue; border-radius: 5px;">
     </div>
-    <header style="text-align: center; font-size: 10px;">
+    <header style="text-align: center; font-size: 10px;" class="heading">
         <h1>Rishabh Tiwari</h1>
         <span>&#9899;Pratap Vihar &#9899; Ghaziabad, 201009</span><br>
-        <span>&#9899;<u>rishabhtiwari1202@gmail.com</u> &#9899; +91 7291926355</span>
+        <span>&#9899;<u>rishabhtiwari1202@gmail.com</u> &#9899; +91 7291926365</span>
     </header>
 
-    <div style="line-height: 25px; font-size: 10px">
+    <div id="ed" style="line-height: 25px; font-size: 10px">
         <h2 style="margin-bottom: 0;">EDUCATION</h2>
         <hr style="margin-top: 0;">
-        <strong>Bachelor of Technology, GLA University, Mathura <span style="position: absolute; right: 40px;">May 2024</span></strong>
+        <strong>Bachelor of Technology, GLA University, Mathura <span style="position: absolute; right: 65px;">May 2020-2024</span></strong>
         <br>
-        <strong>Intermediate, Children's Academy, Ghaziabad <span style="position: absolute; right: 40px;">May 2019</span></strong>
+        <strong>Intermediate, Children's Academy, Ghaziabad <span style="position: absolute; right: 65px;">May 2018-2019</span></strong>
         <br>
-        <strong>High School, Children's Academy, Ghaziabad <span style="position: absolute; right: 40px;">May 2017</span></strong>
+        <strong>High School, Children's Academy, Ghaziabad <span style="position: absolute; right: 65px;">May 2017-2018</span></strong>
     </div>
 
-    <div style="line-height: 25px; font-size: 10px">
+    <div  style="line-height: 25px; font-size: 10px">
         <h2 style="margin-bottom: 0;">TRAINING EXPERIENCE</h2>
         <hr style="margin-top: 0;">
-        <strong>GLA University, Mathura <span style="position: absolute; right: 40px;">Jun 2022 - Jul 2022</span></strong>
+        <strong>GLA University, Mathura <span style="position: absolute; right: 65px;">Jun 2022 - Jul 2022</span></strong>
         <br>
         <em>JoVAC Web Development Bootcamp</em>
         <ul>
@@ -100,20 +126,14 @@
     </div>
 
     <div style="line-height: 25px; font-size: 10px">
-        <h2 style="margin-bottom: 0;">EXTRA/CO-CURRICULAR ACTIVITIES</h2>
+        <h2 style="margin-bottom: 0;">EXTRA CO-CURRICULAR ACTIVITIES</h2>
         <hr style="margin-top: 0;">
         <ul>
             <li> Participated in SRIJAN (Cultural Fest, GLA)</li>
-            <li> Participated in SRIJAN (Cultural Fest, GLA)</li>
+            <li> Participated in MAITREE Badminton Championship (Sports Event, GLA)</li>
             <li> Attended workshop on JAVA Programming</li>
             <li> Attended seminar of Guide Swift</li>
         </ul>
-    </div>
-
-    <div style="line-height: 25px; font-size: 10px">
-        <h2 style="margin-bottom: 0;">DECLERATION</h2>
-        <hr style="margin-top: 0;">
-        <p>I hereby declare that all the above-mentioned information is true and correct to the best of my knowledge</p>
     </div>
 
     <div style="line-height: 25px; font-size: 10px">
@@ -123,7 +143,16 @@
         <span><a href="https://github.com/Rishabh-441">GitHub</a></span>
     </div>
 
-    <div style="height: 500px;"></div>
+    <div style="line-height: 25px; font-size: 10px">
+        <h2 style="margin-bottom: 0;">DECLERATION</h2>
+        <hr style="margin-top: 0;">
+        <p>I hereby declare that all the above-mentioned information is true and correct to the best of my knowledge</p>
+    </div>
+
+    
+
+    <!-- <div style="height: 500px;"></div> -->
+</div>
     
 </body>
 </html>
